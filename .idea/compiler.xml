@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="main-app" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common-kafka (1) (br.com.consumer)" target="10" />
+      <module name="common-kafka (2) (br.com)" target="10" />
+      <module name="main-app" target="11" />
+      <module name="service-email" target="10" />
+      <module name="service-person" target="10" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="main-app" options="-parameters" />
+    </option>
+  </component>
+</project>
